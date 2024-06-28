@@ -30,7 +30,13 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = bool(os.environ.get("DEBUG", default=0))
 
-ALLOWED_HOSTS = os.environ.get("DJANGO_ALLOWED_HOSTS").split(" ")
+# ALLOWED_HOSTS = os.environ.get("DJANGO_ALLOWED_HOSTS").split(" ")
+
+if DEBUG:
+    ALLOWED_HOSTS = ["localhost", "127.0.0.1", "139.59.75.6"]
+else:
+    ALLOWED_HOSTS = ["139.59.75.6"]
+
 
 AUTH_USER_MODEL = 'useraccount.User'
 
