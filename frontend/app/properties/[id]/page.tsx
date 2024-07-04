@@ -37,18 +37,16 @@ const PropertyDetailPage = async ({ params }: { params: { id: string } }) => {
             href={`/landlords/${property.landlord.id}`}
             className="py-6 flex items-center space-x-4"
           >
-            {property.landlord.avatar_url && (
-              <Image
-                src={property.landlord.avatar_url}
-                width={50}
-                height={50}
-                className="rounded-full"
-                alt="The user name"
-              />
-            )}
+            <Image
+              src="/profile_pic_1.jpg"
+              width={50}
+              height={50}
+              className="rounded-full"
+              alt="The user name"
+            />
 
             <p>
-              <strong>{property.landlord.name}</strong> is your host
+              <strong>{property.landlord.name}</strong> Contact the host
             </p>
           </Link>
 
