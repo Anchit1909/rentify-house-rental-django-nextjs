@@ -1,29 +1,18 @@
-import React from "react";
-import Link from "next/link";
-
 function Footer() {
   return (
-    <section className="mt-10 py-10 h-16 text-center" id="footer">
-      <div className=" max-w-screen-xl mx-auto flex flex-col items-center justify-center md:justify-between h-full px-12 md:flex-row">
-        <div className="flex items-center text-black font-poppins text-2xl md:text-2xl font-semibold">
-          <p>
-            <Link href="/">
-              Rentify
-              <span className="text-airbnb">.</span>{" "}
-            </Link>
-          </p>
-        </div>
-        <div>
+    <footer className="h-12 inset-x-0 top-0 z-30 w-full backdrop-blur-lg transition-all mt-8">
+      <div className="mx-auto w-full max-w-screen-xl px-2.5 md:px-20">
+        <div className="flex justify-center">
           <p className="text-[#9E9E9E] font-poppins text-sm md:text-base">
             © 2024{" "}
-            <span className="bg-gradient-to-r from-red-500 to-orange-500 bg-clip-text text-transparent font-semibold">
+            <span className="bg-gradient-to-r from-red-600 to-orange-600 bg-clip-text text-transparent font-semibold">
               Anchit Sinha.
             </span>{" "}
             All rights reserved
           </p>
         </div>
       </div>
-    </section>
+    </footer>
   );
 }
 
