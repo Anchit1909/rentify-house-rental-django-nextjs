@@ -37,7 +37,7 @@ Rentify is a house rental platform. The frontend of the application is built usi
 - Chat with apartment host using socket connection.
 - Book your favorite apartment.
 - View listed properties.
-- View favourite properties.
+- View favorite properties.
 - View your reservations.
 
 ## Tech Stack
