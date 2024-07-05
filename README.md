@@ -1,4 +1,4 @@
-<img alt="Rentify - house rental platform" src="/frontend/public/1.png>
+<img alt="Rentify - house rental platform" src="/frontend/public/1.png">
 
 <h1 align="center">Rentify</h1>
 
@@ -60,27 +60,27 @@ Rentify is a house rental platform. The frontend of the application is built usi
 
 ### Apartment Page
 
-<img alt="Add Review" src="/frontend/public/7.png">
+<img alt="Apartment Page" src="/frontend/public/7.png">
 
 ### Search Modal
 
-<img alt="Room Page" src="/frontend/public/2.png">
+<img alt="Search Modal" src="/frontend/public/2.png">
 
 ### Add Property Modal
 
-<img alt="Edit Room Page" src="/frontend/public/3.png">
+<img alt="Add Property Modal" src="/frontend/public/3.png">
 
 ### Chat screen
 
-<img alt="Add Room Page" src="/frontend/public/4.png">
+<img alt="Chat screen" src="/frontend/public/4.png">
 
 ### My Reservations Page
 
-<img alt="Bookings Page" src="/frontend/public/6.png">
+<img alt="My Reservations Page" src="/frontend/public/6.png">
 
 ### My Favorites Page
 
-<img alt="Add Review" src="/frontend/public/8.png">
+<img alt="My Favorites Page" src="/frontend/public/8.png">
 
 ## Running Locally
 
